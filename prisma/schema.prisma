@@ -12,7 +12,7 @@ datasource db {
   provider = "postgresql"
 }
 
-model Specialty {
+model Speciality {
   id String @id @default(uuid(7))
 
   title       String  @unique @db.VarChar(100)
